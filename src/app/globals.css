@@ -1,3 +1,6 @@
+/* globals.css or global.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,13 +10,13 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --radius: 0.5rem;
   }
 }
-
 body {
   color: var(--foreground);
   background: var(--background);
