@@ -6,7 +6,7 @@ import Image from 'next/image';
 const breadcrumbs = [
   {
     title: 'Dashboard',
-    href: '/',
+    href: '/dashboard/users',
   },
   {
     title: 'Users',

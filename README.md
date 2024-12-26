@@ -16,7 +16,7 @@ This project demonstrates a user management table using Next.js, TanStack Query,
 
 ## Deployment
 
-Hosted on [Vercel](https://your-vercel-link).
+Hosted on [Vercel](https://user-profile-management-zeta.vercel.app/).
 
 ## Challenges
 
